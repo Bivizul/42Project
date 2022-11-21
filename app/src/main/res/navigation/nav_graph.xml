@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/poplaaviFragment">
+
+    <fragment
+        android:id="@+id/plaaviFragment"
+        android:name="aaa.bivizul.a42project.presentation.PlaaviFragment"
+        android:label="PlaaviFragment" />
+    <fragment
+        android:id="@+id/poplaaviFragment"
+        android:name="aaa.bivizul.a42project.presentation.poplaavi.PoplaaviFragment"
+        android:label="PoplaaviFragment" >
+        <action
+            android:id="@+id/action_poplaaviFragment_to_plaaviFragment"
+            app:destination="@id/plaaviFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_poplaaviFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="aaa.bivizul.a42project.presentation.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_plaavisListFragment"
+            app:destination="@id/plaavisListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plaavisListFragment"
+        android:name="aaa.bivizul.a42project.presentation.plaavislist.PlaavisListFragment"
+        android:label="PlaavisListFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="aaa.bivizul.a42project.presentation.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

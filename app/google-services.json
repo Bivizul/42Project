@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1002429353471",
+    "project_id": "a42project",
+    "storage_bucket": "a42project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002429357471:android:a7cfe557f8007b7b2331aa",
+        "android_client_info": {
+          "package_name": "aaa.bivizul.a42project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002429357471-fca101d9hf32uvdo1c3o3di82p21j277.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BbArA-zPdbfXTb6BLJApz4LDN5xUUZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002429357471-fca101d9hf32uvdo1c3o3di82p21j277.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
