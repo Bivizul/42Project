@@ -37,11 +37,10 @@ class PlaavisListAdapter :
 
         with(holder.binding) {
             textViewTitle.text = item.plaaviTitle
-            if (item.plaaviImage.isNotEmpty()){
+            if (item.plaaviImage.isNotEmpty()) {
                 imageViewPlaavis.load(item.plaaviImage)
             }
             textViewDescription.text = item.plaaviDesc
         }
     }
-
 }

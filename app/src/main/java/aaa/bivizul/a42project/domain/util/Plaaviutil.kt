@@ -87,8 +87,8 @@ fun getPlaavifit(plaavis: String): String {
 fun getPlaaviScrOrnt(plaaviornt: Resources): String {
     val ornt = plaaviornt.configuration.orientation
     return if (ornt == Configuration.ORIENTATION_PORTRAIT) {
-        "http://65.109.10.118/42Project/v.jpg"
+        "http://65.109.10.118/42Project/aviv.jpg"
     } else {
-        "http://65.109.10.118/42Project/h.jpg"
+        "http://65.109.10.118/42Project/avih.jpg"
     }
 }

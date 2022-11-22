@@ -1,8 +1,8 @@
 package aaa.bivizul.a42project.data.network
 
 import aaa.bivizul.a42project.domain.model.Plaavi
-import aaa.bivizul.a42project.domain.model.Plaavis
 import aaa.bivizul.a42project.domain.model.Plaavig
+import aaa.bivizul.a42project.domain.model.Plaavis
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET

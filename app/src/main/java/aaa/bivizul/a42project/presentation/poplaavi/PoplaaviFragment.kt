@@ -8,7 +8,6 @@ import aaa.bivizul.a42project.domain.model.Plaavivar
 import aaa.bivizul.a42project.domain.util.*
 import aaa.bivizul.a42project.presentation.PlaaviFragment.Companion.PLAAVIKOR
 import aaa.bivizul.a42project.presentation.poplaavi.PoplaaviViewModel.Companion.ERROR_MESSAGE
-import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
 import android.view.View

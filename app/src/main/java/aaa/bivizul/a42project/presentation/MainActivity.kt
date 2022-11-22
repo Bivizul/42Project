@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             setContentView(R.layout.activity_main)
             val image = getPlaaviScrOrnt(resources)
-            binding.backMainActivity.load(image)
+            binding.imageViewMainActivity.load(image)
         }
     }
 }

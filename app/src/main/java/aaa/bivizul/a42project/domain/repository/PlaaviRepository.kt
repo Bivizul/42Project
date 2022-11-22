@@ -6,6 +6,6 @@ import retrofit2.Response
 
 interface PlaaviRepository {
 
-    suspend fun getPlaavig(plaavi: Plaavi) : Response<Plaavig>
+    suspend fun getPlaavig(plaavi: Plaavi): Response<Plaavig>
 
 }

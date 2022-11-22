@@ -5,6 +5,6 @@ import retrofit2.Response
 
 interface PlaavisRepository {
 
-    suspend fun getPlaavis() : Response<List<Plaavis>>
+    suspend fun getPlaavis(): Response<List<Plaavis>>
 
 }

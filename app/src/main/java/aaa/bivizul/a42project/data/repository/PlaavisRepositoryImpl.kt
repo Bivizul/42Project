@@ -6,9 +6,10 @@ import aaa.bivizul.a42project.domain.repository.PlaavisRepository
 import retrofit2.Response
 import javax.inject.Inject
 
-class PlaavisRepositoryImpl @Inject constructor(val plaaviService: PlaaviService) : PlaavisRepository {
+class PlaavisRepositoryImpl @Inject constructor(val plaaviService: PlaaviService) :
+    PlaavisRepository {
 
-    override suspend fun getPlaavis() : Response<List<Plaavis>> {
+    override suspend fun getPlaavis(): Response<List<Plaavis>> {
         return plaaviService.getPlaavis()
     }
 }
